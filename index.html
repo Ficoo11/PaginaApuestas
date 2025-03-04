@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apuestas Deportivas</title>
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navbar */
+        header {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: #ff6f00;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background-color: #e65c00;
+        }
+
+        /* Sección de apuestas */
+        .betting-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .betting-option {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .betting-option h3 {
+            margin-bottom: 10px;
+        }
+
+        .betting-option button {
+            background-color: #ff6f00;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .betting-option button:hover {
+            background-color: #e65c00;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div>
+                <a href="#">Logo</a>
+            </div>
+            <div>
+                <a href="#">Inicio</a>
+                <a href="#">Apuestas</a>
+                <a href="#">Promociones</a>
+                <a href="#">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Bienvenido a Apuestas Deportivas</h1>
+        <p>¡Haz tus apuestas y gana en los mejores eventos deportivos!</p>
+        <button>Comienza ahora</button>
+    </section>
+
+    <!-- Sección de Apuestas -->
+    <section class="betting-section">
+        <div class="betting-option">
+            <h3>Fútbol</h3>
+            <p>Haz tu apuesta en los partidos más emocionantes</p>
+            <button>Apostar</button>
+        </div>
+        <div class="betting-option">
+            <h3>Baloncesto</h3>
+            <p>Disfruta de las mejores apuestas en la NBA</p>
+            <button>Apostar</button>
+        </div>
+        <div class="betting-option">
+            <h3>Tenis</h3>
+            <p>Apuesta en los torneos de tenis más prestigiosos</p>
+            <button>Apostar</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Apuestas Deportivas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
